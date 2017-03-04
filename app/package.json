@@ -8,5 +8,8 @@
     "start": "node server.js"
   },
   "author": "Marco Bruno",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^16.1.0"
+  }
 }
