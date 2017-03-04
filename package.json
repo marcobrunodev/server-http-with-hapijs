@@ -1,0 +1,19 @@
+{
+  "name": "server-http-with-hapijs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoBrunoBR/server-http-with-hapijs.git"
+  },
+  "author": "Marco Bruno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoBrunoBR/server-http-with-hapijs/issues"
+  },
+  "homepage": "https://github.com/MarcoBrunoBR/server-http-with-hapijs#readme"
+}
