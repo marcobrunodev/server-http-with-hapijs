@@ -15,6 +15,26 @@ server.route({
   }
 })
 
+server.route({
+  method : 'GET',
+  path : '/contato',
+  handler : (req, res) => {
+    res(`
+      <h1>Contato</h1>
+
+      <form action="/contato" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" id="mensagem"></textarea>
+
+        <input type="submit" value="Enviar">
+      </form>
+    `)
+  }
+})
+
 server.start((err) => {
   if (err) {
     throw err
