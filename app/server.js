@@ -35,6 +35,14 @@ server.route({
   }
 })
 
+server.route({
+  method : 'POST',
+  path : '/contato',
+  handler : (req, res) => {
+    res('<h1>Precisamos aprender a pegar os valores que o usuário digitou!</h1>')
+  }
+})
+
 server.start((err) => {
   if (err) {
     throw err
