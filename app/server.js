@@ -7,6 +7,14 @@ const config = {
 
 server.connection(config)
 
+server.route({
+  method : 'GET',
+  path : '/',
+  handler : (req, res) => {
+    res('Hello!')
+  }
+})
+
 server.start((err) => {
   if (err) {
     throw err
